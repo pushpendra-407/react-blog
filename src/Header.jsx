@@ -1,13 +1,12 @@
-function Header(){
-  return <h3>Header file</h3>
-}
-
-export function Profile(){
-  return <div>
+function Header() {
+  return(
+  <div>
     <h2>
-      Profile
+      Pushpendra
     </h2>
   </div>
+  )
 }
+
 
 export default Header

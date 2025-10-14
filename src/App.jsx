@@ -1,5 +1,6 @@
-import Header, { Profile } from "./Header"
+import Header from "./Header"
 import { createElement } from "react"
+import User from "./user"
 
  function callFun(name) {
     return alert("Apple")
@@ -21,9 +22,9 @@ function App(){
   //   Hello Other Div
   // </div>
 
-  function callFun(name){
-    alert(name)
-  }
+  // function callFun(name){
+  //   alert(name)
+  //}
 
 return <div>
     {/* <h1>Pushp's todos</h1>
@@ -33,8 +34,8 @@ return <div>
       <li>Learn Backend</li>
       <li>Get a Job and settled</li>
     </ul> */}
-
-    <button onClick={()=>callFun("Banana")}>Click Me</button>
+  <User />
+    {/* <button onClick={()=>callFun("Banana")}>Click Me</button> */}
   </div>
 
 }
