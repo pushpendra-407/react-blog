@@ -34,7 +34,8 @@ return <div>
       <li>Learn Backend</li>
       <li>Get a Job and settled</li>
     </ul> */}
-  <User />
+  {/* <User /> */}
+  <Header/>
     {/* <button onClick={()=>callFun("Banana")}>Click Me</button> */}
   </div>
 

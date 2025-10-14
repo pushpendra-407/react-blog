@@ -42,7 +42,7 @@ export default function User() {
         count==2 ? <h1>Counter 2</h1>:
         count==3 ? <h1>Counter 3</h1>:
         count==4 ? <h1>Counter 4</h1>:
-        <h1>Counter not found</h1>
+        <h4>Oops!! I did not set counter for this value.</h4>
       }
 
     </div>
