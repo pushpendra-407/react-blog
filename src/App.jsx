@@ -1,6 +1,8 @@
 import Header from "./Header"
 import { createElement } from "react"
 import User from "./user"
+import Checkboxes from "./Checkboxes"
+import RadioAndDrop from "./RadioAndDrop"
 
  function callFun(name) {
     return alert("Apple")
@@ -35,7 +37,9 @@ return <div>
       <li>Get a Job and settled</li>
     </ul> */}
   {/* <User /> */}
-  <Header/>
+  {/* <Header/> */}
+    {/* <Checkboxes /> */}
+    <RadioAndDrop />
     {/* <button onClick={()=>callFun("Banana")}>Click Me</button> */}
   </div>
 
