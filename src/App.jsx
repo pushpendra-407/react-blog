@@ -3,6 +3,8 @@ import { createElement } from "react"
 import User from "./user"
 import Checkboxes from "./Checkboxes"
 import RadioAndDrop from "./RadioAndDrop"
+import Loop from "./Loop"
+import Clock from "./Clock"
 
  function callFun(name) {
     return alert("Apple")
@@ -39,7 +41,9 @@ return <div>
   {/* <User /> */}
   {/* <Header/> */}
     {/* <Checkboxes /> */}
-    <RadioAndDrop />
+    {/* <RadioAndDrop /> */}
+    {/* <Loop/> */}
+    <Clock/>
     {/* <button onClick={()=>callFun("Banana")}>Click Me</button> */}
   </div>
 
